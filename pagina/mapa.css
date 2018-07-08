@@ -1,0 +1,276 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 17px;
+	color: black;
+	line-height: 1.6;
+	text-align: center;
+	background: #FFF4EA;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-attachment: fixed;
+}
+
+#header{
+	background-image: url('pexels-photo-678289.jpeg');
+	background-size: cover; 
+	background-position: center;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:0 20px;
+	color: blanchedalmond;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	text-emphasis: center;
+}
+
+#header h1{
+	font-size: 50px;
+}
+
+#header p{
+	font-size: 20 px;
+}
+
+#header .button{
+	font-size: 18px;
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	border: rgb(255, 255, 255) 1px solid;
+	padding: 2px 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+
+}
+
+#header .button:hover{
+	background: orange;
+}
+
+#img1{
+    background-image: url('abstract-architecture-background-194096.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+#img1 h1{
+    font-size: 50px;
+    color: white;
+}
+
+#img1 p{
+    font-size: 20px;
+    color: white;
+}
+
+#img1 .button1{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border:orange 1px solid;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img1 .button1:hover{
+    background: orangered;
+    color:#fff;
+}
+
+
+#img2{
+    background-image: url('pexels-photo-276514.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+#img2 h1{
+    font-size: 50px;
+    color: white;
+}
+
+#img2 p{
+    font-size: 20px;
+    color: white;
+}
+
+#img2 .button2{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border:orange 1px solid;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img2 .button1:hover{
+    background: orangered;
+    color:#fff;
+}
+
+#img3{
+    background-image: url('abstract-brick-bricks-207204.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+#img3 h1{
+    font-size: 50px;
+    color: white;
+}
+
+#img3 p{
+    font-size: 20px;
+    color: white;
+}
+
+#img3 .button3{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border:orange 1px solid;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img3 .button3:hover{
+    background: orangered;
+    color:#fff;
+}
+
+
+#head{
+
+  display: flex;
+  background: orange;
+  padding-top: 20px;
+  justify-content: space-around;
+  flex-grow: row wrap;
+}
+
+.child{
+
+  flex-grow: 1;
+
+}
+
+ol{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+  margin: 0;  padding: 0; 
+}
+
+ol li{
+  flex-grow: 1;
+  text-align: center;
+  width: 100px;
+}
+ol li a{
+  color: #fff;
+  font-size: 1 em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+head div:nth-child(1) {
+  flex-grow:8;
+  width: 125px;
+  padding-top: 15px;
+
+}
+
+head div:nth-child(1) img{
+  margin-left: 30px;
+}
+
+
+#section-c{
+    
+    display: flex;
+	color: black;
+	padding: 20px;
+	background:#FDA947 ;
+	text-align: center;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+	
+}
+#section-c div{
+    padding: 20;
+}
+#section-c .box-1, #section-c .box-3 {
+	color:black;
+    display: flex;
+}
+
+
+#section-c .box-2{
+	background: #fff;
+	padding: 20;
+
+}
+ 
+#section-d{
+	color: black;
+	padding: 30px;
+    text-align: center;
+
+}
+#section-e{
+	color: black;
+	padding: 30px;
+    text-align: center;
+
+}
+
+#nombre{
+
+font-family: 'Bree Serif', serif;
+text-align: left;
+float: left;
+background-color: ##FF7D00;
+    
+}
+
+
+#mapa1{
+    padding: 100px;
+    justify-content:center;
+align-items:center;
+}
+
+
+
+

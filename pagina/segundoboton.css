@@ -1,0 +1,197 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body, html {
+	margin:0;
+	font-family: 'Poor Story', cursive;
+    font-family: 'Questrial', sans-serif;
+	font-size: 17px;
+	color: black;
+	line-height: 1.6;
+	text-align: center;
+	background: #FFF4EA;
+	
+	background-attachment: fixed;
+    flex-wrap: wrap;
+}
+#img2{
+    background-image: url('pexels-photo-276514.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    flex-grow:1;
+}
+#img2 h1{
+    font-size: 50px;
+    color: white;
+}
+
+#img2 p{
+    font-size: 20px;
+    color: white;
+}
+
+#img2 .button2{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border:orange 1px solid;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img2 .button2:hover{
+    background: orange;
+    color:#fff;
+}
+
+#section-a{
+	padding: 20px;
+	color: black;
+	text-align:center;
+	align-content : center;
+}
+
+#section-b{
+	color: black;
+	padding: 30px;
+    text-align: center;
+
+}
+
+#section-f{
+    color: black;
+	padding: 30px;
+    text-align: center;
+    
+}
+
+ul#flex-container{
+    list-style-type:none ;
+    margin:0;padding: 0;
+    display:flex;
+    flex-wrap:wrap;
+} 
+ul li{
+    flex-grow: 1;
+    width: 250px;
+    padding-top: 45px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 2.2em;
+    text-align: center;
+    margin: 0;padding:0;
+    position: relative;
+    justify-content: space-between;
+}
+
+ul li img{
+    width: 90%;
+}
+ul li a span{
+    position: absolute;
+    color: #fff;
+    bottom: 7px;
+    left: 15px;
+    font-size: .6em;
+    z-index: 3;
+    font-family: 'Raleway';
+}   
+ul li:after{
+    content:'';
+    position: absolute;
+    left: 5%; top:0;
+    width: 90%;
+    height: 100%;
+    display:inline-block;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 5%, rgba(0,0,0,0.02) 8%, rgba(0,0,0,0.03) 9%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 5%,rgba(0,0,0,0.02) 8%,rgba(0,0,0,0.03) 9%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,rgba(0,0,0,0.02) 8%,rgba(0,0,0,0.03) 9%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+
+    
+}
+
+
+ul li:hover .magnify{
+    opacity: 100 !important;
+    
+}
+ul li:hover{
+    opacity: .8;
+}
+
+
+.footer {
+    margin-top: 30px;
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+
+a:hover{
+  color:gray;
+  text-decoration: none;
+}
+
+#head{
+
+  display: flex;
+  background: orangered;
+  padding-top: 20px;
+  justify-content: space-around;
+  flex-grow: row wrap;
+}
+
+.child{
+
+  flex-grow: 1;
+
+}
+
+ol{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+  margin: 0;  padding: 0; 
+}
+
+ol li{
+  flex-grow: 1;
+  text-align: center;
+  width: 100px;
+}
+ol li a{
+  color: #fff;
+  font-size: 1 em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+head div:nth-child(1) {
+  flex-grow:8;
+  width: 125px;
+  padding-top: 15px;
+
+}
+
+head div:nth-child(1) img{
+  margin-left: 30px;
+}

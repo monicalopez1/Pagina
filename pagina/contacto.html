@@ -1,0 +1,104 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Poor+Story|Questrial" rel="stylesheet">
+        <link rel="stylesheet" href="contacto.css">
+        <title>Landing page</title>
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/script.js"></script>
+         <style type=""text/css> 
+        </style>
+        <script languaje="Javascript">   
+<!--  
+document.write('<style type="text/css">div.cp_oculta{display: none;}</style>');  
+function MostrarOcultar(capa,enlace)  
+{  
+    if (document.getElementById)  
+    {  
+        var aux = document.getElementById(capa).style;  
+        aux.display = aux.display? "":"block";  
+    }  
+} 
+            </script>
+    
+        
+    </head>
+    <body>
+        
+          <div id="head">
+        <div id="navbar">
+            <a href="index.html"><img src="brunch%20(2)%20copia.png"  width="170px" height="30px"/>
+            </a>
+        </div>
+        <ol id="child" >
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ol>
+        
+    </div>
+
+<header id="header">
+        <h1>¿Quienes somos?</h1>
+            <p> Un breve desrcipcion de lo que ofrece
+    </p>
+    
+    <div class="cp_oculta" id="texto1">
+        
+    <p>y a que se dedica.</p>
+    </div>
+           <p><a href="javascript:MostrarOcultar('texto1');" class="button">Leer mas</a></p>
+</header>
+        
+        
+<section class="section-contacto">
+        <div class="contenido">
+    
+        <div class="todo">
+                        
+        <iframe class="mapa2 "src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d103.36491639750147!2d-98.80183374819956!3d20.13379130204018!2m2!1f302.491552438613!2f45!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x85d1a0b38ec49139%3A0x6a90523984978171!2sSinntec+Innovaci%C3%B3n+Tecnol%C3%B3gica!5e1!3m2!1ses!2smx!4v1527020330793" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        
+                <h3> Dirección del Lugar</h3>
+                <p>Ciudad, estado en donde se encuentra</p>    
+        </div>
+    
+        <div class="info">
+                        
+        <form action="enviar.php" class="form_contact">
+          <div class="user_info">
+            <label for="names">Nombres *</label>
+            <input type="text" id="names" name="nombre">
+
+            <label for="phone">Telefono / Celular</label>
+            <input type="text" id="phone" name="telefono">
+
+            <label for="email">Correo electronico *</label>
+            <input type="text" id="email" name="correo">
+
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>   
+            
+                    </div>
+    
+                </div>
+    
+            </section>
+        
+         <section class="">
+            <div class="footer">
+                <p>Más información <br>
+                Correo electrónico <br> 
+                Número de télefono
+                </p>
+              </div>  
+        </section>
+    </body>
+</html>

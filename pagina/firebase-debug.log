@@ -1,0 +1,35 @@
+[debug] [2018-07-08T03:00:05.160Z] ----------------------------------------------------------------------
+[debug] [2018-07-08T03:00:05.169Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\moni_\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-07-08T03:00:05.169Z] CLI Version:   3.18.5
+[debug] [2018-07-08T03:00:05.170Z] Platform:      win32
+[debug] [2018-07-08T03:00:05.170Z] Node Version:  v8.11.2
+[debug] [2018-07-08T03:00:05.171Z] Time:          Sat Jul 07 2018 22:00:05 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-08T03:00:05.171Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-08T03:00:05.216Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-08T03:00:05.217Z] > authorizing via signed-in user
+[debug] [2018-07-08T03:00:05.221Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-08T03:00:05.221Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/Wf8hrMHtoqWrVryh8EkH64oZR-XdcHylfgOWRgV3CTo',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jul 07 2018 22:00:05 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-08T03:00:06.008Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-08T03:00:06.042Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ladrillera-9b1c2  
+  
+ Sat Jul 07 2018 22:00:06 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-08T03:00:07.653Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-08T03:00:07.654Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ladrillera-9b1c2/tokens  
+  
+ Sat Jul 07 2018 22:00:07 GMT-0500 (Hora de verano central (México))
+[debug] [2018-07-08T03:00:08.861Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'ladrillera-9b1c2'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing ./ directory for upload...
+[debug] [2018-07-08T03:00:13.252Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/ladrillera-9b1c2/uploads/-LGrpEo_HxCo4hvK5sKh?fileCount=46&message=  
+  
+ Sat Jul 07 2018 22:00:13 GMT-0500 (Hora de verano central (México))
